@@ -1,0 +1,28 @@
+.app {
+  background-color: #111;
+  display: grid;
+  place-items: center;
+}
+
+.app__videos {
+  width: 99vw;
+  text-align: center;
+  max-width: 500px;
+  /* min-width: 400px; */
+  height: 100vh;
+  background-color: #fff;
+  /* border-radius: 20px; */
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+/* chrome, safari, opera*/
+
+.app__videos::-webkit-scrollbar {
+  display: none;
+}
+
+.app__videos {
+  -ms-overflow-style: none; /* IE and Edge*/
+  scrollbar-width: none; /*Firefox*/
+}

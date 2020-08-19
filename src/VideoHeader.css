@@ -1,0 +1,12 @@
+.videoHeader {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.videoHeader > * {
+  padding: 15px;
+}
